@@ -42,7 +42,7 @@ makeCacheMatrix <- function(M = matrix()) {
 
 ## This function calculates the inverse of the Matrix created above.  It first checks if the 
 ## inverse has already been calculated, if true it gets the inverse from the cache and skips
-## the computation, else the inverse is calculated.New comment...
+## the computation, else the inverse is calculated.
 
 cacheSolve <- function(M, ...) {
   ## Return a matrix that is the inverse of 'M'
